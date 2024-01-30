@@ -45,3 +45,76 @@
     --quote-text-size: 36px;
     --quote-text-color : #1F2937;
 }
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: var(--dark-bg-color);
+    padding: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+.navdiv a{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: var(--hero-secondary-text-color);
+    margin-right: 25px;
+}
+
+
+main {
+    height: 350px;
+    background-color: var(--dark-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    justify-content: space-around;
+    
+}
+
+.hero-image{
+    height: 250px;
+    width: auto;
+}
+
+button{
+    background-color: var(--btn-bg-color);
+    width : 150px;
+    height: 35px;
+
+}
+button a{
+    color: var(--hero-main-text-color);
+}
+
+main h1{
+    color: var(--hero-main-text-color);
+    font-size: var(--hero-main-tex-size);
+    padding-top: 15px;
+}
+
+main p{
+    color: var(--hero-secondary-text-color);
+    font-size: var(--hero-secondary-text-size);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hero-text{
+    width: 600px;
+}
