@@ -28,3 +28,20 @@
     font-weight: light;
     font-style: italic;
 }
+
+
+:root {
+    --dark-bg-color : #1F2937;
+    --hero-main-tex-size : 48px;
+    --hero-main-text-color : #F9FAF8;
+    --hero-secondary-text-size : 18px;
+    --hero-secondary-text-color : #E5E7EB;
+    --hero-logo-text-size : 24px;
+    --hero-logo-text-color : #F9FAF8;
+    --btn-bg-color : #3882F6;
+    --info-header-text-size : 36px;
+    --info-header-text-color : #1F2937;
+    --quote-bg-color : #E5E7EB;
+    --quote-text-size: 36px;
+    --quote-text-color : #1F2937;
+}
