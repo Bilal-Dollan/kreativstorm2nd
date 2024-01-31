@@ -113,3 +113,14 @@ main p {
 .hero-text {
   width: 600px;
 }
+.quote{
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: 5rem auto;
+  padding: 5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #1785b5;
+}
