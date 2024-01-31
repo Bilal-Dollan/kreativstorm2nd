@@ -1,47 +1,73 @@
 @font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
-    font-weight: normal;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-Light.ttf) format("truetype");
-    font-weight: light;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Light.ttf) format('truetype');
+  font-weight: light;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
-    font-weight: bold;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-Black.ttf) format("truetype");
-    font-weight: bolder;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf) format('truetype');
+  font-weight: bolder;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
-    font-weight: light;
-    font-style: italic;
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
+  font-weight: light;
+  font-style: italic;
 }
-
 
 :root {
-    --dark-bg-color : #1F2937;
-    --hero-main-tex-size : 48px;
-    --hero-main-text-color : #F9FAF8;
-    --hero-secondary-text-size : 18px;
-    --hero-secondary-text-color : #E5E7EB;
-    --hero-logo-text-size : 24px;
-    --hero-logo-text-color : #F9FAF8;
-    --btn-bg-color : #3882F6;
-    --info-header-text-size : 36px;
-    --info-header-text-color : #1F2937;
-    --quote-bg-color : #E5E7EB;
-    --quote-text-size: 36px;
-    --quote-text-color : #1F2937;
+  --dark-bg-color: #1f2937;
+  --hero-main-tex-size: 48px;
+  --hero-main-text-color: #f9faf8;
+  --hero-secondary-text-size: 18px;
+  --hero-secondary-text-color: #e5e7eb;
+  --hero-logo-text-size: 24px;
+  --hero-logo-text-color: #f9faf8;
+  --btn-bg-color: #3882f6;
+  --info-header-text-size: 36px;
+  --info-header-text-color: #1f2937;
+  --quote-bg-color: #e5e7eb;
+  --quote-text-size: 36px;
+  --quote-text-color: #1f2937;
+}
+.container-section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title-section-2 {
+  font-size: var(--hero-logo-text-size);
+  color: var(--info-header-text-color);
+}
+.more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.mars-img-section-2 {
+  border: solid 3px;
+  border-color: #3882f6;
+  border-radius: 30px;
+  width: auto;
+  height: 300px;
+}
+.text-section-2 {
+  font-size: var(--hero-secondary-text-size);
+  color: #1f2937;
 }
