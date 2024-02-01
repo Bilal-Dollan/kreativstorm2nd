@@ -114,6 +114,7 @@ main p {
   width: 600px;
 }
 
+
 .section1 {
   background-color: #fdeeee;
   padding: 40px;
@@ -127,6 +128,7 @@ h2 {
   font-size: 2em;
   color: #1f2937;
 }
+
 
 .feature img {
   height: auto;
@@ -150,6 +152,7 @@ h2 {
   background-color: #f9faf8;
 }
 
+
 .feature .styled-image {
   max-width: 100%;
   width: 55px;
@@ -159,6 +162,6 @@ h2 {
   background-color: red;
 }
 
-h2 {
+h2{
   text-align: center;
 }
