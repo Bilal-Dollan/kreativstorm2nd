@@ -65,7 +65,7 @@ body {
 
 .navbar {
   background-color: var(--dark-bg-color);
-  padding: 15px;
+  padding: 10px;
 }
 
 .navdiv {
@@ -87,7 +87,7 @@ body {
 }
 
 main {
-  height: 350px;
+  height: 150px;
   background-color: var(--dark-bg-color);
   display: flex;
   align-items: center;
@@ -96,7 +96,7 @@ main {
 }
 
 .hero-image {
-  height: 250px;
+  height: 185px;
   width: auto;
 }
 
@@ -127,6 +127,105 @@ main p {
 .hero-text {
   width: 600px;
 }
+
+.section1 {
+  background-color: #fdeeee;
+  padding: 40px;
+  text-align: center;
+}
+
+.section1 h2 {
+  color: #fff;
+}
+h2 {
+  font-size: 2em;
+  color: #1f2937;
+}
+
+.feature img {
+  height: auto;
+  border-radius: 70px;
+  max-width: 100%;
+  width: 95px;
+  box-shadow: 0 5px 8px rgba(201, 2, 2, 0.6);
+}
+
+.feature {
+  color: #1f2937;
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 1px solid #1f2937;
+  margin-right: 280px;
+  background-color: #f9faf8;
+}
+
+.feature .styled-image {
+  max-width: 100%;
+  width: 55px;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(68, 49, 49, 0.4);
+  background-color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section1 {
+  background-color: #fdeeee;
+  padding: 40px;
+  text-align: center;
+}
+
+.section1 h2 {
+  color: #fff;
+}
+h2 {
+  font-size: 2em;
+  color: #1f2937;
+}
+
+.feature img {
+  height: auto;
+  border-radius: 70px;
+  max-width: 100%;
+  width: 95px;
+  box-shadow: 0 5px 8px rgba(201, 2, 2, 0.6);
+}
+
+.feature {
+  color: #1f2937;
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 1px solid #1f2937;
+  margin-right: 280px;
+  background-color: #f9faf8;
+}
+
+.feature .styled-image {
+  max-width: 100%;
+  width: 55px;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(68, 49, 49, 0.4);
+  background-color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
 
 /* CALL TO ACTION STYLES */
 
@@ -277,17 +376,16 @@ footer {
   .cta-content div {
     margin-left: 0;
   }
-  
+
   .cta-content button {
     margin-right: 0;
   }
 
-
-.copyright {
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-}
+  .copyright {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 }
 
 /* Media query for tablets (e.g., iPads) */
