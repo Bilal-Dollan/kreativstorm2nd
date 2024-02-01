@@ -7,7 +7,7 @@
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Light.ttf) format("truetype");
-  font-weight: light;
+  font-weight: 300;
 }
 
 @font-face {
@@ -19,13 +19,13 @@
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Black.ttf) format("truetype");
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
-  font-weight: light;
+  font-weight: 300;
   font-style: italic;
 }
 
