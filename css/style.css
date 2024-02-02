@@ -316,7 +316,13 @@ h2 {
   color: #1f2937;
   margin-top: 10px;
 }
-
+/* styles page our services */
+.our-services {
+  background-color: #e5e7eb;
+}
+.title-our-services {
+  color: #1f2937;
+}
 /* FOOTER STYLES */
 footer {
   background-color: var(--dark-bg-color);
