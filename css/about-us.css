@@ -117,3 +117,56 @@ main{
 footer {
     background-color: var(--about-us-bg-color);
   }
+
+
+@media screen and (max-width:420px){
+    .our-mission{
+        margin-bottom: 0px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .our-story-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-story-img{
+        width: 400px;
+        height: auto;
+        padding-bottom: 16px;
+        justify-items: center;
+    }
+
+    .our-story-p{
+        margin: initial;
+    }
+}
+
+@media screen and (max-width:800px){
+    .our-mission{
+        margin-bottom: 0px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .our-story-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-story-img{
+        width: 300px;
+        height: auto;
+        padding-bottom: 16px;
+        justify-items: center;
+    }
+
+    .our-story-p{
+        margin: initial;
+    }
+}
