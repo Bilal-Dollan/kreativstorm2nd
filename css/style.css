@@ -1,32 +1,32 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Light.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
   font-weight: 300;
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Black.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Black.ttf) format("truetype");
   font-weight: 900;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
   font-weight: 300;
   font-weight: 300;
   font-style: italic;
@@ -52,7 +52,7 @@
   text-decoration: none;
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .navitem a {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   color: var(--hero-secondary-text-color);
   margin-left: 25px;
@@ -102,7 +102,7 @@ body {
 }
 
 .navdiv a {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   color: var(--hero-secondary-text-color);
 }
@@ -163,98 +163,89 @@ main p {
   padding: 5rem;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #1785b5;
 }
+
 .section1 {
-  background-color: #fdeeee;
-  padding: 40px;
+  background-color: #f9faf8;
+  padding: 0.625rem;
+  font-family: "Roboto";
+  margin: 1.25rem;
+}
+
+h2 {
+  color: #1f2937;
+  margin-bottom: 1.25rem;
+  font-weight: bold;
   text-align: center;
 }
 
-.section1 h2 {
-  color: #fff;
-}
-h2 {
-  font-size: 2em;
-  color: #1f2937;
-}
-
-.feature img {
-  height: auto;
-  border-radius: 70px;
-  max-width: 100%;
-  width: 95px;
-  box-shadow: 0 5px 8px rgba(201, 2, 2, 0.6);
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .feature {
   color: #1f2937;
-  margin-top: 10px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  width: 350px;
+  max-width: 87.5rem;
+  width: 14.375rem;
+  height: 28.125rem;
   box-sizing: border-box;
-  padding: 30px;
-  border: 1px solid #1f2937;
-  background-color: #f9faf8;
+  margin: 0.625rem;
+  padding: 16pxrem;
+  background-color: #fcfdfa;
 }
-
-.feature .styled-image {
-  max-width: 100%;
-  width: 55px;
-  height: auto;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(68, 49, 49, 0.4);
-  background-color: red;
-}
-
-h2 {
-  text-align: center;
-}
-.section1 {
-  background-color: #fdeeee;
-  padding: 40px;
-  text-align: center;
-}
-
-.section1 h2 {
-  color: #fff;
-}
-h2 {
-  font-size: 2em;
-  color: #1f2937;
-}
-
 .feature img {
-  height: auto;
-  border-radius: 70px;
-  max-width: 100%;
-  width: 95px;
-  box-shadow: 0 5px 8px rgba(201, 2, 2, 0.6);
+  width: 10.625rem;
+  height: 9.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.313rem 0.5rem rgba(85, 129, 250, 0.6);
+  border: 0.125rem solid #3882f6;
 }
 
-.feature {
-  color: #1f2937;
-  margin-top: 10px;
+.feature p {
+  margin-top: 0.938rem;
+  width: 8.75rem;
   text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  width: 350px;
-  box-sizing: border-box;
-  padding: 30px;
-  border: 1px solid #1f2937;
-  background-color: #f9faf8;
+  padding-left: 1.875rem;
 }
 
 .feature .styled-image {
-  max-width: 100%;
-  width: 55px;
-  height: auto;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(68, 49, 49, 0.4);
-  background-color: red;
+  width: 10.625rem;
+  height: 9.375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(68, 49, 49, 0.4);
+}
+
+/* CALL TO ACTION STYLES */
+
+.cta-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cta-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 70px;
+  border-radius: 12px;
+  background-color: var(--btn-bg-color);
+}
+
+.cta-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--hero-main-text-color);
 }
 
 h2 {
