@@ -1,32 +1,32 @@
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Light.ttf) format('truetype');
   font-weight: 300;
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Bold.ttf) format('truetype');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Black.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf) format('truetype');
   font-weight: 900;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
   font-weight: 300;
   font-weight: 300;
   font-style: italic;
@@ -52,7 +52,7 @@
   text-decoration: none;
   margin: 0px;
   padding: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .navitem a {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 18px;
   color: var(--hero-secondary-text-color);
   margin-left: 25px;
@@ -102,7 +102,7 @@ body {
 }
 
 .navdiv a {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 18px;
   color: var(--hero-secondary-text-color);
 }
@@ -163,39 +163,28 @@ main p {
   padding: 5rem;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   color: #1785b5;
 }
 
 .section1 {
   background-color: #f9faf8;
-  padding: 0.625rem;
-  font-family: "Roboto";
-  margin: 1.25rem;
+  font-family: 'Roboto';
+  height: auto;
 }
 
 h2 {
   color: #1f2937;
-  margin-bottom: 1.25rem;
   font-weight: bold;
   text-align: center;
+  margin: 50px;
 }
 
 .features-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-.feature {
   color: #1f2937;
-  max-width: 87.5rem;
-  width: 14.375rem;
-  height: 28.125rem;
-  box-sizing: border-box;
-  margin: 0.625rem;
-  padding: 16pxrem;
-  background-color: #fcfdfa;
 }
 .feature img {
   width: 10.625rem;
@@ -203,13 +192,22 @@ h2 {
   border-radius: 1.25rem;
   box-shadow: 0 0.313rem 0.5rem rgba(85, 129, 250, 0.6);
   border: 0.125rem solid #3882f6;
+  margin-bottom: 10px;
 }
-
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+.feature h3 {
+  width: 8.75rem;
+  text-align: center;
+}
 .feature p {
   margin-top: 0.938rem;
   width: 8.75rem;
   text-align: center;
-  padding-left: 1.875rem;
 }
 
 .feature .styled-image {
@@ -299,36 +297,6 @@ h2 {
 
 .content {
   flex: 1;
-}
-/* styles section 2 */
-.container-section-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.title-section-2 {
-  font-size: var(--hero-logo-text-size);
-  color: var(--info-header-text-color);
-  margin: 30px;
-}
-.more-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-}
-.mars-img-section-2 {
-  border: solid 3px;
-  border-color: #3882f6;
-  border-radius: 30px;
-  width: auto;
-  height: 200px;
-}
-.text-section-2 {
-  font-size: var(--hero-secondary-text-size);
-  color: #1f2937;
-  margin-top: 10px;
 }
 /* styles page our services */
 .our-services {
