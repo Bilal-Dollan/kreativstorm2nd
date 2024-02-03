@@ -1,32 +1,32 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Light.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
   font-weight: 300;
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-Black.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Black.ttf) format("truetype");
   font-weight: 900;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(../fonts/Roboto-LightItalic.ttf) format('truetype');
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
   font-weight: 300;
   font-weight: 300;
   font-style: italic;
@@ -52,7 +52,7 @@
   text-decoration: none;
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
 
@@ -91,15 +91,14 @@ body {
 
 .logo a {
   padding-left: 16px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: var(--hero-logo-text-size) !important;
   font-weight: bolder;
   color: var(--hero-secondary-text-color);
-
 }
 
 .navitem a {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   color: var(--hero-secondary-text-color);
   margin-left: 25px;
@@ -107,7 +106,7 @@ body {
 }
 
 .navdiv a {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   color: var(--hero-secondary-text-color);
 }
@@ -160,13 +159,13 @@ main p {
   padding-right: 48px;
 }
 .quote {
-  padding: 100px;
+  padding: 70px;
   padding-left: 20%;
   padding-right: 20%;
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   background-color: #e5e7eb;
   color: #1f2937;
 }
@@ -178,7 +177,7 @@ main p {
 }
 .section1 {
   background-color: #f9faf8;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   height: auto;
   display: flex;
   flex-direction: column;
@@ -342,17 +341,7 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-/* responsive our services */
-@media screen and (max-width: 767px) {
-  .our-services {
-    flex-direction: column;
-    align-items: center;
-  }
-  .quote {
-    padding: 100px;
-    font-size: 18px;
-  }
-}
+
 /* FOOTER STYLES */
 footer {
   background-color: var(--dark-bg-color);
@@ -434,7 +423,14 @@ footer {
 
 /* Media query for small devices (e.g., smartphones) */
 @media screen and (max-width: 767px) {
-
+  .our-services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .quote {
+    padding: 30px;
+    font-size: 18px;
+  }
   .features-container {
     flex-direction: column;
     align-items: center;
@@ -475,6 +471,11 @@ footer {
   .footer-column {
     width: 30%;
     flex: none;
+  }
+
+  .quote {
+    padding: 50px;
+    font-size: 18px;
   }
 }
 
