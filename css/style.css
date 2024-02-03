@@ -71,7 +71,7 @@ body {
 
 .navbar {
   background-color: var(--dark-bg-color);
-  padding: 16px 0px 16px 0px;
+  padding: 20px 0px 20px 0px;
   width: 100%;
 }
 
@@ -91,6 +91,11 @@ body {
 
 .logo a {
   padding-left: 16px;
+  font-family: 'Roboto';
+  font-size: var(--hero-logo-text-size) !important;
+  font-weight: bolder;
+  color: var(--hero-secondary-text-color);
+
 }
 
 .navitem a {
@@ -175,6 +180,10 @@ main p {
   background-color: #f9faf8;
   font-family: 'Roboto';
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 h2 {
@@ -189,6 +198,9 @@ h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   color: #1f2937;
+  width: 100%;
+  max-width: 1400px;
+  padding: 16px;
 }
 .feature img {
   width: 10.625rem;
@@ -422,6 +434,11 @@ footer {
 
 /* Media query for small devices (e.g., smartphones) */
 @media screen and (max-width: 767px) {
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer-column {
     width: 100%;
     flex: none;
