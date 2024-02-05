@@ -610,6 +610,8 @@ footer {
   .quote {
     font-size: 18px;
   }
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -671,6 +673,11 @@ h2 {
   .hero-text {
     padding: initial;
   }
+
+  .cta-section{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 @media screen and (max-width: 460px) and (min-width: 360px) {
@@ -715,6 +722,11 @@ h2 {
 
   .logo a {
     padding: initial;
+  }
+
+  .cta-section{
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
