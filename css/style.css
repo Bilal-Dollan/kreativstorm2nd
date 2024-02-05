@@ -476,6 +476,8 @@ footer {
     padding: 50px;
     font-size: 18px;
   }
+
+
 }
 
 /* Media query for laptop/desktop screens */
@@ -514,6 +516,11 @@ h2 {
   .hero-text {
     padding: initial;
   }
+
+  .cta-section{
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 @media screen and (max-width: 530px) and (min-width: 460px) {
@@ -542,6 +549,11 @@ h2 {
   }
   .hero-text {
     padding: initial;
+  }
+
+  .cta-section{
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 
@@ -587,6 +599,11 @@ h2 {
 
   .logo a {
     padding: initial;
+  }
+
+  .cta-section{
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
@@ -644,6 +661,11 @@ h2 {
 
   .navitem a {
     margin-left: 12px;
+  }
+
+  .cta-section{
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
