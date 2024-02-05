@@ -1,11 +1,10 @@
 
 section.content {
   width: 100%;
-  /* padding: 30px 0 30px 0; */
 }
 section.content div {
   height: 500px;
-  background-image: url('../images/beautiful-aerial-view-from-airplane-wing-white-cloud-sky-sunset-time.jpg');
+  background-image: url('../images/2150895675.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,7 +33,6 @@ img {
   justify-content: center;
   width: 100%;
   gap: 30px;
-  padding: 16px;
 }
 
 .pricing-box {
@@ -66,7 +64,7 @@ img {
 
 .price {
   font-size: max(4.125rem, min(3.3333vw + 0.1rem, 10rem));
-  color: var(--about-us-bg-color);
+  color: var( --dark-bg-color);
   margin: 10px 0;
   font-weight: bold;
 }
@@ -75,7 +73,7 @@ img {
   width: 50%;
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--about-us-bg-color);
+  background-color: var( --dark-bg-color);
   color: #fff;
   text-decoration: none;
   border-radius: 5px;

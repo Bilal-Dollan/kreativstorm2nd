@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Martian</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-
     <header>
       <nav class="navbar">
-        <section class="navdiv">
-          <figure class="logo">
+        <div class="navdiv">
+          <div class="logo">
             <a href="./index.html">The Martian</a>
-          </figure>
+          </div>
           <div class="navitem">
             <ul>
               <li><a href="./pages/about_us.html">About us</a></li>
@@ -21,71 +20,90 @@
               <li><a href="./pages/our_services.html">Our Services</a></li>
             </ul>
           </div>
-        </section>
+          <div class="burger-menu-container">
+            <label class="hamburger-menu">
+              <input type="checkbox" />
+            </label>
+            <aside class="sidebar">
+              <nav class="nav-mobile">
+                <ul>
+                  <li><a href="./pages/about_us.html">About us</a></li>
+                  <li><a href="./pages/pricing.html">Pricing</a></li>
+                  <li><a href="./pages/our_services.html">Our Services</a></li>
+                </ul>
+              </nav>
+            </aside>
+          </div>
+        </div>
       </nav>
     </header>
-
-    <main>
-      <section class="content">
-        <blockquote class="hero-container">
-          <div class="hero-text">
-            <h1>Travel to Mars</h1>
-            <p>Exploring Mars is like unlocking the secrets of our own past and the potential of our future, inspiring us to push the boundaries of exploration and understanding.</p>
-            <button><a href="./pages/pricing.html">Book Now</a></button>
-          </div>
-          <picture class="hero-image">
-            <img src="./images/hero-image.jpg" alt="" class="hero-image">
-          </picture>
-        </blockquote>
+    <main class="content">
+      <section class="hero-container">
+        <div class="hero-text">
+          <h1>Travel to Mars</h1>
+          <p>
+            Exploring Mars is like unlocking the secrets of our own past and the
+            potential of our future, inspiring us to push the boundaries of
+            exploration and understanding.
+          </p>
+          <button><a href="./pages/pricing.html">Book Now</a></button>
+        </div>
+        <picture class="hero-image">
+          <img src="./images/hero-image.jpg" alt="" class="hero-image" />
+        </picture>
       </section>
     </main>
-
     <section class="section1">
       <h2>Discover Our Features</h2>
-      <section class="features-container">
-        <figure class="feature">
+      <div class="features-container">
+        <div class="feature">
           <img src="./images/to-mars.jpg" alt="Rocket Launch Icon" />
           <h3>Exclusive Experiences</h3>
-        </figure>
-        <figure class="feature">
-          <img class="styled-image" src="./images/service.jpg" alt="24/7 Icon" />
+        </div>
+        <div class="feature">
+          <img
+            class="styled-image"
+            src="./images/service.jpg"
+            alt="24/7 Icon"
+          />
           <h3>Spacesuit-Ready Team</h3>
-        </figure>
-        <figure class="feature">
+        </div>
+        <div class="feature">
           <img src="./images/rocket-image.jpg" alt="Rocket Launch Icon" />
           <h3>Rocket-Fast Departures</h3>
-        </figure>
-        <figure class="feature">
+        </div>
+        <div class="feature">
           <a href="./pages/our_services.html">
-          <img src="./images/aircraft.jpeg" alt="journeyToMars">
+            <img src="./images/aircraft.jpeg" alt="journeyToMars" />
           </a>
           <h3>Explore our range of services</h3>
-        </figure>
-      </section>
+        </div>
+      </div>
     </section>
-
-    <blockquote>
-      <p class="quote">"It's when children are 15, 16 or 17 that they decide whether they want to be a doctor, an engineer, a politician or go to the Mars or moon. That is the time they start having a dream, and that's the time you can work on them. You can help them shape their dreams." 
-        <br>
+    <section class="quote-section">
+      <p class="quote">
+        "It's when children are 15, 16 or 17 that they decide whether they want
+        to be a doctor, an engineer, a politician or go to the Mars or moon.
+        That is the time they start having a dream, and that's the time you can
+        work on them. You can help them shape their dreams."
+        <br />
         <span class="author"> -P. J. Abdul Kalam </span>
       </p>
-    </blockquote>
-
-    <section class="cta-section">
-      <aside class="cta-content">
+    </section>
+    <div class="cta-section">
+      <div class="cta-content">
         <div>
           <h1 class="cta-heading">Book Your Ticket to Mars</h1>
-          <p class="cta-description">Experience the adventure of a lifetime. Limited seats available!</p>
+          <p class="cta-description">
+            Experience the adventure of a lifetime. Limited seats available!
+          </p>
         </div>
-        <button>
-        <a href="./pages/pricing.html">Book Now</a>
-        </button>
-      </aside>
-    </section>
-
+        <button><a href="./pages/pricing.html">Book Now</a></button>
+      </div>
+    </div>
     <footer>
-      <section class="footer-columns">
-        <section class="footer-column">
+      <div class="footer-columns">
+        <div class="footer-column">
           <h3>Company Info</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -94,8 +112,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Legal</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -104,8 +122,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Features</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -114,8 +132,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Resources</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -124,18 +142,22 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Get in Touch</h3>
           <ul>
             <li>You can trust us, we only send promo offers.</li>
           </ul>
           <form>
-            <input type="email" class="subscribe-input" placeholder="Enter your email">
+            <input
+              type="email"
+              class="subscribe-input"
+              placeholder="Enter your email"
+            />
             <button type="submit" class="subscribe-btn">Subscribe</button>
           </form>
-        </section>
-        <section class="copyright">
+        </div>
+        <div class="copyright">
           <p>&copy; 2024 The Martian. All rights reserved.</p>
           <div>
             <i class="fa-brands fa-facebook-f"></i>
@@ -143,11 +165,12 @@
             <i class="fa-brands fa-square-instagram"></i>
             <i class="fa-brands fa-linkedin"></i>
           </div>
-        </section>
-      </section>
+        </div>
+      </div>
     </footer>
-
-    <script src="https://kit.fontawesome.com/88a0bf72ce.js" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://kit.fontawesome.com/88a0bf72ce.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

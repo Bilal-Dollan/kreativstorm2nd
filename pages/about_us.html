@@ -8,27 +8,39 @@
     <link rel="stylesheet" href="../css/about-us.css" />
   </head>
   <body>
-
     <header>
       <nav class="navbar">
-        <section class="navdiv">
-          <figure class="logo">
+        <div class="navdiv">
+          <div class="logo">
             <a href="../index.html">The Martian</a>
-          </figure>
+          </div>
           <div class="navitem">
             <ul>
-              <li><a href="../pages/about_us.html">About us</a></li>
-              <li><a href="../pages/pricing.html">Pricing</a></li>
-              <li><a href="../pages/our_services.html">Our Services</a></li>
+              <li><a href="./about_us.html">About us</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./our_services.html">Our Services</a></li>
             </ul>
           </div>
-        </section>
+          <div class="burger-menu-container">
+            <label class="hamburger-menu">
+              <input type="checkbox" />
+            </label>
+            <aside class="sidebar">
+              <nav class="nav-mobile">
+                <ul>
+                  <li><a href="./about_us.html">About us</a></li>
+                  <li><a href="./pricing.html">Pricing</a></li>
+                  <li><a href="./our_services.html">Our Services</a></li>
+                </ul>
+              </nav>
+            </aside>
+          </div>
+        </div>
       </nav>
     </header>
-
     <main>
       <section class="our-mission">
-        <blockquote class="our-mission-text">
+        <div class="our-mission-text">
           <h2>Our Mission</h2>
           <br />
           <p>
@@ -45,7 +57,7 @@
             Join us as we embark on this monumental voyage towards unlocking the
             mysteries of the cosmos.
           </p>
-        </blockquote>
+        </div>
       </section>
       <picture class="our-mission-img">
         <img src="../images/our-mission.jpg" alt="" />
@@ -53,9 +65,10 @@
     </main>
 
     <section class="our-story-section">
-      <blockquote class="our-story-div">
+      <div class="our-story-div">
         <h2>Our Story</h2>
-        <figure class="our-story-content">
+
+        <div class="our-story-content">
           <img src="../images/our-story.jpg" alt="" class="our-story-img" />
           <p class="our-story-p">
             Our story begins with a collective dream - to transcend the confines
@@ -71,13 +84,13 @@
             science fiction into science fact and redefine the boundaries of
             what's possible in our quest to reach the next frontier.
           </p>
-        </figure>
-      </blockquote>
+        </div>
+      </div>
     </section>
 
     <footer>
-      <section class="footer-columns">
-        <section class="footer-column">
+      <div class="footer-columns">
+        <div class="footer-column">
           <h3>Company Info</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -86,8 +99,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Legal</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -96,8 +109,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Features</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -106,8 +119,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Resources</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -116,18 +129,19 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </section>
-        <section class="footer-column">
+        </div>
+        <div class="footer-column">
           <h3>Get in Touch</h3>
-          <ul>
-            <li>You can trust us, we only send promo offers.</li>
-          </ul>
           <form>
-            <input type="email" class="subscribe-input" placeholder="Enter your email">
+            <input
+              type="email"
+              class="subscribe-input"
+              placeholder="Enter your email"
+            />
             <button type="submit" class="subscribe-btn">Subscribe</button>
           </form>
-        </section>
-        <section class="copyright">
+        </div>
+        <div class="copyright">
           <p>&copy; 2024 The Martian. All rights reserved.</p>
           <div>
             <i class="fa-brands fa-facebook-f"></i>
@@ -135,8 +149,8 @@
             <i class="fa-brands fa-square-instagram"></i>
             <i class="fa-brands fa-linkedin"></i>
           </div>
-        </section>
-      </section>
+        </div>
+      </div>
     </footer>
     <script
       src="https://kit.fontawesome.com/88a0bf72ce.js"
