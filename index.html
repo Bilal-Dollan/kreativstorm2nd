@@ -8,38 +8,36 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="navdiv">
-          <div class="logo">
-            <a href="./index.html">The Martian</a>
-          </div>
-          <div class="navitem">
-            <ul>
-              <li><a href="./pages/about_us.html">About us</a></li>
-              <li><a href="./pages/pricing.html">Pricing</a></li>
-              <li><a href="./pages/our_services.html">Our Services</a></li>
-            </ul>
-          </div>
-          <div class="burger-menu-container">
-            <label class="hamburger-menu">
-              <input type="checkbox" />
-            </label>
-            <aside class="sidebar">
-              <nav class="nav-mobile">
-                <ul>
-                  <li><a href="./pages/about_us.html">About us</a></li>
-                  <li><a href="./pages/pricing.html">Pricing</a></li>
-                  <li><a href="./pages/our_services.html">Our Services</a></li>
-                </ul>
-              </nav>
-            </aside>
-          </div>
-        </div>
-      </nav>
+      <div class="navbar">
+        <nav class="logo">
+          <a href="./index.html">The Martian</a>
+        </nav>
+        <nav class="navitem">
+          <ul>
+            <li><a href="./pages/about_us.html">About us</a></li>
+            <li><a href="./pages/pricing.html">Pricing</a></li>
+            <li><a href="./pages/our_services.html">Our Services</a></li>
+          </ul>
+        </nav>
+        <nav class="burger-menu-container">
+          <label class="hamburger-menu">
+            <input type="checkbox" />
+          </label>
+          <aside class="sidebar">
+            <nav class="nav-mobile">
+              <ul>
+                <li><a href="./pages/about_us.html">About us</a></li>
+                <li><a href="./pages/pricing.html">Pricing</a></li>
+                <li><a href="./pages/our_services.html">Our Services</a></li>
+              </ul>
+            </nav>
+          </aside>
+        </nav>
+      </div>
     </header>
     <main class="content">
       <section class="hero-container">
-        <div class="hero-text">
+        <aside class="hero-text">
           <h1>Travel to Mars</h1>
           <p>
             Exploring Mars is like unlocking the secrets of our own past and the
@@ -47,63 +45,64 @@
             exploration and understanding.
           </p>
           <button><a href="./pages/pricing.html">Book Now</a></button>
-        </div>
+        </aside>
         <picture class="hero-image">
           <img src="./images/hero-image.jpg" alt="" class="hero-image" />
         </picture>
       </section>
+      <section class="section1">
+        <h2>Discover Our Features</h2>
+        <div class="features-container">
+          <figure class="feature">
+            <img src="./images/to-mars.jpg" alt="Rocket Launch Icon" />
+            <figcaption><p>Exclusive Experiences</p></figcaption>
+          </figure>
+          <figure class="feature">
+            <img
+              class="styled-image"
+              src="./images/service.jpg"
+              alt="24/7 Icon"
+            />
+            <figcaption><p>Spacesuit-Ready Team</p></figcaption>
+          </figure>
+          <figure class="feature">
+            <img src="./images/rocket-image.jpg" alt="Rocket Launch Icon" />
+            <figcaption><p>Rocket-Fast Departures</p></figcaption>
+          </figure>
+          <figure class="feature">
+            <a href="./pages/our_services.html">
+              <img src="./images/aircraft.jpeg" alt="journeyToMars" />
+            </a>
+            <figcaption><p>Explore our range of services</p></figcaption>
+          </figure>
+        </div>
+      </section>
     </main>
-    <section class="section1">
-      <h2>Discover Our Features</h2>
-      <div class="features-container">
-        <div class="feature">
-          <img src="./images/to-mars.jpg" alt="Rocket Launch Icon" />
-          <h3>Exclusive Experiences</h3>
-        </div>
-        <div class="feature">
-          <img
-            class="styled-image"
-            src="./images/service.jpg"
-            alt="24/7 Icon"
-          />
-          <h3>Spacesuit-Ready Team</h3>
-        </div>
-        <div class="feature">
-          <img src="./images/rocket-image.jpg" alt="Rocket Launch Icon" />
-          <h3>Rocket-Fast Departures</h3>
-        </div>
-        <div class="feature">
-          <a href="./pages/our_services.html">
-            <img src="./images/aircraft.jpeg" alt="journeyToMars" />
-          </a>
-          <h3>Explore our range of services</h3>
-        </div>
-      </div>
-    </section>
+
     <section class="quote-section">
-      <p class="quote">
+      <blockquote class="quote">
         "It's when children are 15, 16 or 17 that they decide whether they want
         to be a doctor, an engineer, a politician or go to the Mars or moon.
         That is the time they start having a dream, and that's the time you can
         work on them. You can help them shape their dreams."
         <br />
-        <span class="author"> -P. J. Abdul Kalam </span>
-      </p>
+        <cite class="author"> -P. J. Abdul Kalam </cite>
+      </blockquote>
     </section>
-    <div class="cta-section">
+    <section class="cta-section">
       <div class="cta-content">
-        <div>
-          <h1 class="cta-heading">Book Your Ticket to Mars</h1>
+        <aside>
+          <h3 class="cta-heading">Book Your Ticket to Mars</h3>
           <p class="cta-description">
             Experience the adventure of a lifetime. Limited seats available!
           </p>
-        </div>
+        </aside>
         <button><a href="./pages/pricing.html">Book Now</a></button>
       </div>
-    </div>
+    </section>
     <footer>
       <div class="footer-columns">
-        <div class="footer-column">
+        <section class="footer-column">
           <h3>Company Info</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -112,8 +111,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </div>
-        <div class="footer-column">
+        </section>
+        <section class="footer-column">
           <h3>Legal</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -122,8 +121,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </div>
-        <div class="footer-column">
+        </section>
+        <section class="footer-column">
           <h3>Features</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -132,8 +131,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </div>
-        <div class="footer-column">
+        </section>
+        <section class="footer-column">
           <h3>Resources</h3>
           <ul>
             <li><a href="#">Address: 123 Main St, Cityville</a></li>
@@ -142,8 +141,8 @@
               <a href="mailto:info@example.com">Email: info@example.com</a>
             </li>
           </ul>
-        </div>
-        <div class="footer-column">
+        </section>
+        <section class="footer-column">
           <h3>Get in Touch</h3>
           <ul>
             <li>You can trust us, we only send promo offers.</li>
@@ -156,8 +155,8 @@
             />
             <button type="submit" class="subscribe-btn">Subscribe</button>
           </form>
-        </div>
-        <div class="copyright">
+        </section>
+        <section class="copyright">
           <p>&copy; 2024 The Martian. All rights reserved.</p>
           <div>
             <i class="fa-brands fa-facebook-f"></i>
@@ -165,7 +164,7 @@
             <i class="fa-brands fa-square-instagram"></i>
             <i class="fa-brands fa-linkedin"></i>
           </div>
-        </div>
+        </section>
       </div>
     </footer>
     <script

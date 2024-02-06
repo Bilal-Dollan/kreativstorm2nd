@@ -77,16 +77,15 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
+header {
   background-color: var(--dark-bg-color);
-  height: 50px;
   display: flex;
   align-items: center;
   width: 100%;
   position: fixed;
 }
 
-.navdiv {
+.navbar {
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -121,7 +120,7 @@ body {
   padding-right: 16px;
 }
 
-.navdiv a {
+.navbar a {
   font-family: "Roboto";
   font-size: 18px;
   color: var(--hero-secondary-text-color);
@@ -146,16 +145,16 @@ main {
 .hero-image {
   height: auto;
   max-width: 550px;
-  border-radius: 10px; 
-  overflow: hidden; 
+  border-radius: 10px;
+  overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  background-color: #1f2937; 
+  background-color: #1f2937;
 }
 
 .hero-image img {
   width: 100%;
-  display: block; 
-  border-radius: 10px; 
+  display: block;
+  border-radius: 10px;
 }
 
 button {
@@ -246,14 +245,10 @@ h2 {
   align-items: center;
   margin: 30px;
 }
-.feature h3 {
-  width: 8.75rem;
-  text-align: center;
-}
 .feature p {
-  margin-top: 0.938rem;
   width: 8.75rem;
   text-align: center;
+  color: #010101;
 }
 
 .feature .styled-image {
@@ -589,7 +584,7 @@ footer {
     display: block;
   }
 
-  .nav-mobile ul{
+  .nav-mobile ul {
     display: flex;
     gap: 1rem;
     flex-direction: column;
